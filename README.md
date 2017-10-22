@@ -33,5 +33,5 @@ let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDa
             }
 ```
 
-![Regular UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot%201.png "Regular UIDatePicker")
-![Post-Check UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot%201.png "Post-Check UIDatePicker")
+![Regular UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot1.png "Regular UIDatePicker")
+![Post-Check UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot2.png "Post-Check UIDatePicker")
