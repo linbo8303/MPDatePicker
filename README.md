@@ -13,24 +13,25 @@ UIWindow level DatePicker
 1. Regular UIDatePicker
 ```
 let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: true)
-            picker.completionHandler = { [weak self] date in
-                let formatter = DateFormatter()
-                formatter.timeStyle = .medium
-                formatter.dateStyle = .medium
-                self?.title = formatter.string(from: date)
-            }
+picker.completionHandler = { [weak self] date in
+    let formatter = DateFormatter()
+    formatter.timeStyle = .medium
+    formatter.dateStyle = .medium
+    self?.title = formatter.string(from: date)
+}
 ```
+![Regular UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot1.png "Regular UIDatePicker") 
 
 2. Post-Check UIDatePicker
 ```
-      let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: false)
-            picker.recommendedDate = recommendedDate
-            picker.completionHandler = { [weak self] date in
-                let formatter = DateFormatter()
-                formatter.timeStyle = .medium
-                formatter.dateStyle = .medium
-                self?.title = formatter.string(from: date)
-            }
+let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: false)
+picker.recommendedDate = recommendedDate
+picker.completionHandler = { [weak self] date in
+    let formatter = DateFormatter()
+    formatter.timeStyle = .medium
+    formatter.dateStyle = .medium
+    self?.title = formatter.string(from: date)
+}
 ```
 
-![Regular UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot1.png "Regular UIDatePicker") ![Post-Check UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot2.png "Post-Check UIDatePicker")
+![Post-Check UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot2.png "Post-Check UIDatePicker")
