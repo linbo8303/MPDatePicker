@@ -1,13 +1,13 @@
 # MPDatePicker
-UIWindow level DatePicker
+UIWindow level DatePicker which supports different UIDatePickerMode
 
 1. Provides two modes: 
-  a. Regular UIDatePicker
-  b. Post-Check UIDatePicker
+   1. Regular UIDatePicker
+   2. Post-Check UIDatePicker
   
 2. Two blocks
-  a. completionHandler: ((Date)->Void)?
-  b. dismissHandler: (()->Void)?
+   1. completionHandler: ((Date)->Void)?
+   2. dismissHandler: (()->Void)?
 
 **Usage:**
 1. Regular UIDatePicker
