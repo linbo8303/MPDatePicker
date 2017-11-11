@@ -14,7 +14,7 @@ UIWindow level DatePicker which supports different UIDatePickerMode
 ```swift
 let picker = MPDatePicker.show(selected: selectedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: true)
 picker.completionHandler = { date in
-    // do something after tapping done
+    // do something after tapping done button
 }
 pickerr.dismissHandler = { in
     // do something after dismiss the picker
@@ -28,7 +28,7 @@ pickerr.dismissHandler = { in
 let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: false)
 picker.recommendedDate = recommendedDate     // "Recommended" button
 picker.completionHandler = { date in
-    // do something after tapping done
+    // do something after tapping done button
 }
 pickerr.dismissHandler = { in
     // do something after dismiss the picker
