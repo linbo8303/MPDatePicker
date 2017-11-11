@@ -1,5 +1,5 @@
 # MPDatePicker
-UIWindow level DatePicker which supports different UIDatePickerMode
+UIWindow level DatePicker which supports different UIDatePickerMode, easily adpoted into any view
 
 1. Provides two modes: 
    1. Regular UIDatePicker
