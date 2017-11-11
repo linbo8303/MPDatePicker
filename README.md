@@ -23,7 +23,7 @@ pickerr.dismissHandler = { in
 
 ![Regular UIDatePicker](https://github.com/linbo8303/MPDatePicker/blob/master/Screenshot1.png "Regular UIDatePicker") 
 
-2. Post-Check UIDatePicker (validate the date by clicking "Done" button)
+2. Post-Check UIDatePicker (validate the date in the valid range by clicking "Done" button)
 ```swift
 let picker = MPDatePicker.show(selected: recommendedDate, minimumDate: minimumDate, maximumDate: maximumDate, validatdRealTime: false)
 picker.recommendedDate = recommendedDate     // "Recommended" button
