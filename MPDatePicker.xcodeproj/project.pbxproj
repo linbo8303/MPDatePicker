@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3805F45E1FD4B624009BAEB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3849D0181F9C6E6000F5E542 /* MPDatePicker.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3849CFFA1F9C6E0800F5E542 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				3849D01A1F9C6F7500F5E542 /* Support Files */,
-				3849D0181F9C6E6000F5E542 /* MPDatePicker.swift */,
+				3805F45E1FD4B624009BAEB1 /* Classes */,
 				38A1DEBC1F9C720E00730412 /* MPTableViewController.swift */,
 				3849D00A1F9C6E0800F5E542 /* Main.storyboard */,
 			);

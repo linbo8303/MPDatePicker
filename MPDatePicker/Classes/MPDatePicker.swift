@@ -1,9 +1,9 @@
 //
 //  MPDatePicker.swift
-//  Posmeal
+//  Oasis
 //
 //  Created by Bo Lin on 20/10/17.
-//  Copyright © 2017 Posmill. All rights reserved.
+//  Copyright © 2017 Oasis. All rights reserved.
 //
 
 import UIKit
